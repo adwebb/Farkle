@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D77BE3B188725BE00A8EEDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D77BE3A188725BE00A8EEDA /* Foundation.framework */; };
+		6D77BE3D188725BE00A8EEDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D77BE3C188725BE00A8EEDA /* CoreGraphics.framework */; };
+		6D77BE3F188725BE00A8EEDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D77BE3E188725BE00A8EEDA /* UIKit.framework */; };
+		6D77BE45188725BE00A8EEDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D77BE43188725BE00A8EEDA /* InfoPlist.strings */; };
+		6D77BE47188725BE00A8EEDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77BE46188725BE00A8EEDA /* main.m */; };
+		6D77BE4B188725BE00A8EEDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77BE4A188725BE00A8EEDA /* AppDelegate.m */; };
+		6D77BE4E188725BE00A8EEDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D77BE4C188725BE00A8EEDA /* Main.storyboard */; };
+		6D77BE51188725BE00A8EEDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77BE50188725BE00A8EEDA /* ViewController.m */; };
+		6D77BE53188725BE00A8EEDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D77BE52188725BE00A8EEDA /* Images.xcassets */; };
+		6D77BE5A188725BE00A8EEDA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D77BE59188725BE00A8EEDA /* XCTest.framework */; };
+		6D77BE5B188725BE00A8EEDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D77BE3A188725BE00A8EEDA /* Foundation.framework */; };
+		6D77BE5C188725BE00A8EEDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D77BE3E188725BE00A8EEDA /* UIKit.framework */; };
+		6D77BE64188725BE00A8EEDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D77BE62188725BE00A8EEDA /* InfoPlist.strings */; };
+		6D77BE66188725BE00A8EEDA /* FarkleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77BE65188725BE00A8EEDA /* FarkleTests.m */; };
+		6D77BE71188725DB00A8EEDA /* DieLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77BE70188725DB00A8EEDA /* DieLabel.m */; };
+		6D77BE7518873F4A00A8EEDA /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77BE7418873F4A00A8EEDA /* Player.m */; };
+		6D77BE7D18874CD400A8EEDA /* felt_table.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D77BE7C18874CD400A8EEDA /* felt_table.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D77BE5D188725BE00A8EEDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D77BE2F188725BE00A8EEDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D77BE36188725BE00A8EEDA;
+			remoteInfo = Farkle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D77BE37188725BE00A8EEDA /* Farkle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farkle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D77BE3A188725BE00A8EEDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6D77BE3C188725BE00A8EEDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6D77BE3E188725BE00A8EEDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6D77BE42188725BE00A8EEDA /* Farkle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Farkle-Info.plist"; sourceTree = "<group>"; };
+		6D77BE44188725BE00A8EEDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D77BE46188725BE00A8EEDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D77BE48188725BE00A8EEDA /* Farkle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Farkle-Prefix.pch"; sourceTree = "<group>"; };
+		6D77BE49188725BE00A8EEDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D77BE4A188725BE00A8EEDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D77BE4D188725BE00A8EEDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D77BE4F188725BE00A8EEDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D77BE50188725BE00A8EEDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D77BE52188725BE00A8EEDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6D77BE58188725BE00A8EEDA /* FarkleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarkleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D77BE59188725BE00A8EEDA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6D77BE61188725BE00A8EEDA /* FarkleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FarkleTests-Info.plist"; sourceTree = "<group>"; };
+		6D77BE63188725BE00A8EEDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D77BE65188725BE00A8EEDA /* FarkleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FarkleTests.m; sourceTree = "<group>"; };
+		6D77BE6F188725DB00A8EEDA /* DieLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DieLabel.h; sourceTree = "<group>"; };
+		6D77BE70188725DB00A8EEDA /* DieLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DieLabel.m; sourceTree = "<group>"; };
+		6D77BE7218872F2500A8EEDA /* DieLabelDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DieLabelDelegate.h; sourceTree = "<group>"; };
+		6D77BE7318873F4A00A8EEDA /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		6D77BE7418873F4A00A8EEDA /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		6D77BE7C18874CD400A8EEDA /* felt_table.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = felt_table.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D77BE34188725BE00A8EEDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D77BE3D188725BE00A8EEDA /* CoreGraphics.framework in Frameworks */,
+				6D77BE3F188725BE00A8EEDA /* UIKit.framework in Frameworks */,
+				6D77BE3B188725BE00A8EEDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D77BE55188725BE00A8EEDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D77BE5A188725BE00A8EEDA /* XCTest.framework in Frameworks */,
+				6D77BE5C188725BE00A8EEDA /* UIKit.framework in Frameworks */,
+				6D77BE5B188725BE00A8EEDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D77BE2E188725BE00A8EEDA = {
+			isa = PBXGroup;
+			children = (
+				6D77BE40188725BE00A8EEDA /* Farkle */,
+				6D77BE5F188725BE00A8EEDA /* FarkleTests */,
+				6D77BE39188725BE00A8EEDA /* Frameworks */,
+				6D77BE38188725BE00A8EEDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D77BE38188725BE00A8EEDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D77BE37188725BE00A8EEDA /* Farkle.app */,
+				6D77BE58188725BE00A8EEDA /* FarkleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D77BE39188725BE00A8EEDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D77BE3A188725BE00A8EEDA /* Foundation.framework */,
+				6D77BE3C188725BE00A8EEDA /* CoreGraphics.framework */,
+				6D77BE3E188725BE00A8EEDA /* UIKit.framework */,
+				6D77BE59188725BE00A8EEDA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D77BE40188725BE00A8EEDA /* Farkle */ = {
+			isa = PBXGroup;
+			children = (
+				6D77BE4C188725BE00A8EEDA /* Main.storyboard */,
+				6D77BE49188725BE00A8EEDA /* AppDelegate.h */,
+				6D77BE4A188725BE00A8EEDA /* AppDelegate.m */,
+				6D77BE6F188725DB00A8EEDA /* DieLabel.h */,
+				6D77BE70188725DB00A8EEDA /* DieLabel.m */,
+				6D77BE7218872F2500A8EEDA /* DieLabelDelegate.h */,
+				6D77BE4F188725BE00A8EEDA /* ViewController.h */,
+				6D77BE50188725BE00A8EEDA /* ViewController.m */,
+				6D77BE7318873F4A00A8EEDA /* Player.h */,
+				6D77BE7418873F4A00A8EEDA /* Player.m */,
+				6D77BE52188725BE00A8EEDA /* Images.xcassets */,
+				6D77BE41188725BE00A8EEDA /* Supporting Files */,
+			);
+			path = Farkle;
+			sourceTree = "<group>";
+		};
+		6D77BE41188725BE00A8EEDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D77BE7C18874CD400A8EEDA /* felt_table.jpg */,
+				6D77BE42188725BE00A8EEDA /* Farkle-Info.plist */,
+				6D77BE43188725BE00A8EEDA /* InfoPlist.strings */,
+				6D77BE46188725BE00A8EEDA /* main.m */,
+				6D77BE48188725BE00A8EEDA /* Farkle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D77BE5F188725BE00A8EEDA /* FarkleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D77BE65188725BE00A8EEDA /* FarkleTests.m */,
+				6D77BE60188725BE00A8EEDA /* Supporting Files */,
+			);
+			path = FarkleTests;
+			sourceTree = "<group>";
+		};
+		6D77BE60188725BE00A8EEDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D77BE61188725BE00A8EEDA /* FarkleTests-Info.plist */,
+				6D77BE62188725BE00A8EEDA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D77BE36188725BE00A8EEDA /* Farkle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D77BE69188725BE00A8EEDA /* Build configuration list for PBXNativeTarget "Farkle" */;
+			buildPhases = (
+				6D77BE33188725BE00A8EEDA /* Sources */,
+				6D77BE34188725BE00A8EEDA /* Frameworks */,
+				6D77BE35188725BE00A8EEDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Farkle;
+			productName = Farkle;
+			productReference = 6D77BE37188725BE00A8EEDA /* Farkle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D77BE57188725BE00A8EEDA /* FarkleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D77BE6C188725BE00A8EEDA /* Build configuration list for PBXNativeTarget "FarkleTests" */;
+			buildPhases = (
+				6D77BE54188725BE00A8EEDA /* Sources */,
+				6D77BE55188725BE00A8EEDA /* Frameworks */,
+				6D77BE56188725BE00A8EEDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D77BE5E188725BE00A8EEDA /* PBXTargetDependency */,
+			);
+			name = FarkleTests;
+			productName = FarkleTests;
+			productReference = 6D77BE58188725BE00A8EEDA /* FarkleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D77BE2F188725BE00A8EEDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Kagan Riedel";
+				TargetAttributes = {
+					6D77BE57188725BE00A8EEDA = {
+						TestTargetID = 6D77BE36188725BE00A8EEDA;
+					};
+				};
+			};
+			buildConfigurationList = 6D77BE32188725BE00A8EEDA /* Build configuration list for PBXProject "Farkle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D77BE2E188725BE00A8EEDA;
+			productRefGroup = 6D77BE38188725BE00A8EEDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D77BE36188725BE00A8EEDA /* Farkle */,
+				6D77BE57188725BE00A8EEDA /* FarkleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D77BE35188725BE00A8EEDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D77BE53188725BE00A8EEDA /* Images.xcassets in Resources */,
+				6D77BE7D18874CD400A8EEDA /* felt_table.jpg in Resources */,
+				6D77BE45188725BE00A8EEDA /* InfoPlist.strings in Resources */,
+				6D77BE4E188725BE00A8EEDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D77BE56188725BE00A8EEDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D77BE64188725BE00A8EEDA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D77BE33188725BE00A8EEDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D77BE51188725BE00A8EEDA /* ViewController.m in Sources */,
+				6D77BE4B188725BE00A8EEDA /* AppDelegate.m in Sources */,
+				6D77BE47188725BE00A8EEDA /* main.m in Sources */,
+				6D77BE71188725DB00A8EEDA /* DieLabel.m in Sources */,
+				6D77BE7518873F4A00A8EEDA /* Player.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D77BE54188725BE00A8EEDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D77BE66188725BE00A8EEDA /* FarkleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D77BE5E188725BE00A8EEDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D77BE36188725BE00A8EEDA /* Farkle */;
+			targetProxy = 6D77BE5D188725BE00A8EEDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D77BE43188725BE00A8EEDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D77BE44188725BE00A8EEDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6D77BE4C188725BE00A8EEDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D77BE4D188725BE00A8EEDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D77BE62188725BE00A8EEDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D77BE63188725BE00A8EEDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D77BE67188725BE00A8EEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D77BE68188725BE00A8EEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D77BE6A188725BE00A8EEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kaganriedel/Desktop,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Farkle/Farkle-Prefix.pch";
+				INFOPLIST_FILE = "Farkle/Farkle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6D77BE6B188725BE00A8EEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kaganriedel/Desktop,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Farkle/Farkle-Prefix.pch";
+				INFOPLIST_FILE = "Farkle/Farkle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6D77BE6D188725BE00A8EEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Farkle.app/Farkle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Farkle/Farkle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FarkleTests/FarkleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6D77BE6E188725BE00A8EEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Farkle.app/Farkle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Farkle/Farkle-Prefix.pch";
+				INFOPLIST_FILE = "FarkleTests/FarkleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D77BE32188725BE00A8EEDA /* Build configuration list for PBXProject "Farkle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D77BE67188725BE00A8EEDA /* Debug */,
+				6D77BE68188725BE00A8EEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D77BE69188725BE00A8EEDA /* Build configuration list for PBXNativeTarget "Farkle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D77BE6A188725BE00A8EEDA /* Debug */,
+				6D77BE6B188725BE00A8EEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D77BE6C188725BE00A8EEDA /* Build configuration list for PBXNativeTarget "FarkleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D77BE6D188725BE00A8EEDA /* Debug */,
+				6D77BE6E188725BE00A8EEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D77BE2F188725BE00A8EEDA /* Project object */;
+}
