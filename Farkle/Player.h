@@ -10,6 +10,5 @@
 
 @interface Player : NSObject
 @property int totalScore;
-@property int turnScore;
 
 @end

@@ -13,8 +13,6 @@
 -(IBAction)labelWasTapped:(id *)sender
 {
     [_delegate didChooseDie:self];
-    
-    self.backgroundColor = [UIColor purpleColor];
 }
 
 -(void) roll
